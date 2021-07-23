@@ -20,7 +20,8 @@ python3.8 __init__.py pyrebase4 kivy kivymd
 ### Output of `get_dependencies` looks like this
 ```javascript
 {
-  'kivy': ['pygments', 'kivy-garden', 'docutils'], 'pyrebase4': ['requests-toolbelt', 'gcloud', 'oauth2client', 'python-jwt', 'pycryptodome', 'requests'], 
+  'kivy': ['pygments', 'kivy-garden', 'docutils'], 
+  'pyrebase4': ['requests-toolbelt', 'gcloud', 'oauth2client', 'python-jwt', 'pycryptodome', 'requests'], 
   'kivy-garden': ['requests'], 
   'requests-toolbelt': ['requests'], 
   'gcloud': ['googleapis-common-protos', 'protobuf', 'oauth2client', 'six', 'httplib2'],     
