@@ -36,5 +36,8 @@ def check_non_existing_recipe(packages: list):
 
 
 if __name__ == "__main__":
-    print(get_dependencies(["pyrebase4"]))
-    print(check_non_existing_recipe(["pyrebase4"]))
+    import sys
+    sys.argv.pop(0)
+
+    print(get_dependencies(sys.argv))
+    print(check_non_existing_recipe(sys.argv))
